@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palvelut - Golfpallojen myymälä</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Palvelut Styles */
+        #palvelut {
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+
+        .golfpallon-kuva {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .golfpallon-kuva img {
+            width: 300px; /* Suurennetaan golfpallon kuvaa */
+            height: auto;
+        }
+
+        .palvelut-tiedot {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .palvelut-tiedot h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        @media (max-width: 768px) {
+            .golfpallon-kuva img {
+                width: 200px; /* Pienennetään kuvaa pienemmillä näytöillä */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="palvelut.html">Palvelut</a></li>
+                <li><a href="tuotteet.html">Tuotteet</a></li>
+                <li><a href="Yhteyestiedot.html">Yhteystiedot</a></li>
+              </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="palvelut">
+            <div class="golfpallon-kuva">
+                <img src="golfpallo.jpg" alt="Golfpallon kuva">
+            </div>
+            <div class="palvelut-tiedot">
+                <h1>Palvelut</h1>
+                <table>
+                    <tr>
+                        <th>Palvelu</th>
+                        <th>Kuvaus</th>
+                        <th>Hinta</th>
+                    </tr>
+                    <tr>
+                        <td>Golfpallon valintaopas</td>
+                        <td>Asiantunteva opastus oikean golfpallon valintaan.</td>
+                        <td>Ilmainen</td>
+                    </tr>
+                    <tr>
+                        <td>Golfpallon kierrätys</td>
+                        <td>Käytettyjen golfpallojen kierrätys ja huolto.</td>
+                        <td>5€ / pallo</td>
+                    </tr>
+                    <tr>
+                        <td>Golfpallon huolto</td>
+                        <td>Puhdistus, kiillotus ja testaus palloille.</td>
+                        <td>10€ / pallo</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

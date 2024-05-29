@@ -1,0 +1,69 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+.background-image {
+  background-image: url('golf-maisema.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+}
+
+nav ul {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style-type: none;
+  z-index: 1; /* Aseta navigointilinkit päälle */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #4CAF50;
+}
+
+/* Form Styles */
+form {
+  color: #2e4d2e;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #4CAF50;
+  color: #fff;
+}
